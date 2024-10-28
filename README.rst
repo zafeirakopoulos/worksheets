@@ -11,4 +11,5 @@ If you are interested to run the worksheets, press the Binder button above.
 
 
 
-Copyright [Zafeirakis Zafeirakopoulos](zafeirakopoulos.giithub.io)
+Copyright Zafeirakis Zafeirakopoulos (2024) 
+https://zafeirakopoulos.github.io
