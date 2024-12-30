@@ -17,6 +17,9 @@ RUN adduser --disabled-password --gecos "Default user" --uid ${NB_UID} ${NB_USER
 COPY notebooks/* ${HOME}/
 RUN chown -R ${NB_USER}:${NB_USER} ${HOME}
 
+RUN pip3 install sympy 
+RUN pip3 install numpy 
+
 # Switch to the user
 USER ${NB_USER}
 
